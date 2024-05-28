@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.blog_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    height: 500px;
+    width: 365px;
+    border-radius: 25px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-box-shadow: 23px 13px 0px 5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 23px 13px 0px 5px rgba(0, 0, 0, 1);
+    box-shadow: 23px 13px 0px 5px rgba(0, 0, 0, 1);
+
+}
+
+.banner {
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.tag {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    border: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.published {
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: x-large;
+    color: hsl(47, 88%, 63%);
+    font-family: sans-serif;
+}
+
+p1 {
+    color: hsl(0, 0%, 50%);
+    font-family: sans-serif;
+    padding: 0 10px;
+
+}
+
+author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 10px;
+}
+
+.name {
+    padding: 10px;
+}
+
+.pfp {
+    border-radius: 100px;
+    height: 30px;
+    width: auto;
+}
+
+footer {
+    position: relative;
+    margin-bottom: 10px;
+}
